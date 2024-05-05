@@ -20,7 +20,10 @@ export default function Promotion() {
                 <p className="absolute top-0 right-0 px-3 py-1 m-4 font-medium text-white/90 bg-slate-100/20 hover:bg-slate-100/30 cursor-pointer rounded-lg border">
                   {item.category}
                 </p>
-                <h1 className="text-2xl py-2 text-[#15bfae] font-bold">{item.title}</h1>
+                <p className="font-medium">{item.date}</p>
+                <h1 className="text-2xl py-2 text-[#15bfae] font-bold">
+                  {item.title}
+                </h1>
                 <p className="text-justify">{item.description}</p>
               </div>
             </div>

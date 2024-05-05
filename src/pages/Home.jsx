@@ -3,6 +3,8 @@ import Navbar from "../Components/Navbar";
 import Pagination from "../Components/Pagination";
 import Promotion from "../Components/Promotion";
 import Testimonial from "../Components/Testimonial";
+import Footer from "../Components/Footer";
+import Advertise from "../Components/Advertise";
 
 export default function Home() {
   return (
@@ -41,6 +43,8 @@ export default function Home() {
         <Pagination />
         <Testimonial />
         <Promotion />
+        <Footer />
+        <Advertise />
       </section>
     </>
   );
