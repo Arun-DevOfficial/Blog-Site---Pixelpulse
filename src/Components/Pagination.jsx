@@ -12,7 +12,7 @@ export default function Pagination() {
 
   return (
     <>
-      <section className="py-40 w-full sm:w-[70%] mx-auto">
+      <section className="py-40 w-full md:w-full lg:w-[70%] mx-auto">
         <div className="p-6 md:p-12 lg:p-4 xl:p-4">
           <div className="flex flex-col space-y-6">
             <h1 className="text-lg md:text-3xl lg:text-3xl xl:text-4xl font-semibold">

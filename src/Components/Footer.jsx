@@ -13,7 +13,7 @@ function Footer() {
           <div className="flex items-start space-x-4">
             <FaAppStore
               color="white"
-              className="w-10 h-10 border rounded-full"
+              className="w-10 h-10 border rounded-full cursor-pointer"
             />
             <div>
               <h2 className="text-lg lg:text-xl font-semibold text-white mb-2">
