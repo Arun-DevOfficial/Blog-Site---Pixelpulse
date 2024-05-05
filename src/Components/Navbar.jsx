@@ -95,7 +95,7 @@ export default function Navbar() {
       <div
         className={`${
           openMenu
-            ? "bg-white fixed left-0 top-0 right-0 h-[350px] p-6 lg:hidden flex flex-col justify-between items-center transition-all ease-in-out duration-300"
+            ? "bg-white fixed left-0 top-0 right-0 h-[350px] p-6 flex flex-col justify-between items-center transition-all ease-in-out duration-300"
             : "fixed top-[-100%] transition-all ease-out duration-300"
         }`}
       >

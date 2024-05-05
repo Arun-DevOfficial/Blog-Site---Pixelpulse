@@ -1,7 +1,7 @@
 import {
-  FaAppStoreIos,
+  FaAppStore,
   FaFacebookF,
-  FaSquareTwitter,
+  FaXTwitter,
   FaWhatsapp,
 } from "react-icons/fa6";
 
@@ -11,7 +11,7 @@ function Footer() {
       <div className="container lg:w-[80%] mx-auto px-4 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           <div className="flex items-start space-x-4">
-            <FaAppStoreIos
+            <FaAppStore
               color="white"
               className="w-10 h-10 border rounded-full"
             />
@@ -51,7 +51,7 @@ function Footer() {
                 <FaFacebookF className="w-4 h-4 group-hover:text-[#15bfae]" />
               </div>
               <div className="group">
-                <FaSquareTwitter className="w-5 h-5 group-hover:text-[#15bfae]" />
+                <FaXTwitter className="w-5 h-5 group-hover:text-[#15bfae] cursor-pointer" />
               </div>
               <div className="group">
                 <FaWhatsapp className="w-5 h-5 group-hover:text-[#15bfae]" />
