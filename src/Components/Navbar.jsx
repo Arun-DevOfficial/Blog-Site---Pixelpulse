@@ -9,7 +9,7 @@ import {
   FaInstagram,
   FaChalkboardUser,
   FaHeadphonesSimple,
-  FaPhotoFilm
+  FaPhotoFilm,
 } from "react-icons/fa6";
 
 export default function Navbar() {
@@ -95,37 +95,38 @@ export default function Navbar() {
       <div
         className={`${
           openMenu
-            ? "bg-white fixed left-0 top-0 right-0 h-[350px] p-6 flex flex-col justify-between items-center transition-all ease-in-out duration-300"
+            ? "bg-white fixed left-0 top-0 right-0 h-[350px] p-6 lg:hidden flex flex-col justify-between items-center transition-all ease-in-out duration-300"
             : "fixed top-[-100%] transition-all ease-out duration-300"
         }`}
       >
         <FaXing
-          className="w-5 h-5 self-end"
+          className="w-5 h-5 self-end hover:text-[#15bfae]"
           onClick={() => setOpenMenu(!openMenu)}
         />
         <div className="flex flex-col space-y-6">
-          <div className="flex space-x-6 items-center">
-            <FaHouseChimney className="w-5 h-5" />
+          <div className="flex space-x-6 items-center group hover:text-[#15bfae]">
+            <FaHouseChimney className="w-5 h-5 group-hover:text-[#15bfae]" />
             <h1 className="font-medium text-lg">Home</h1>
           </div>
-          <div className="flex space-x-6 items-center">
-            <FaChalkboardUser className="w-5 h-5" />
+          <div className="flex space-x-6 items-center group hover:text-[#15bfae]">
+            <FaChalkboardUser className="w-5 h-5 group-hover:text-[#15bfae]" />
             <h1 className="font-medium text-lg">About</h1>
           </div>
-          <div className="flex space-x-6 items-center">
-            <FaPhotoFilm className="w-5 h-5" />
+          <div className="flex space-x-6 items-center group hover:text-[#15bfae]">
+            <FaPhotoFilm className="w-5 h-5 group-hover:text-[#15bfae]" />
             <h1 className="font-medium text-lg">Articles</h1>
           </div>
-          <div className="flex space-x-6 items-center">
-            <FaHeadphonesSimple className="w-5 h-5" />
+          <div className="flex space-x-6 items-center group hover:text-[#15bfae]">
+            <FaHeadphonesSimple className="w-5 h-5 group-hover:text-[#15bfae]" />
             <h1 className="font-medium text-lg">Contact us</h1>
           </div>
         </div>
+
         <div className="flex space-x-4">
-          <FaFacebookF className="border rounded-full border-slate-800 w-8 h-8 p-2" />
-          <FaXTwitter className="border rounded-full border-slate-800 w-8 h-8 p-2" />
-          <FaWhatsapp className="border rounded-full border-slate-800 w-8 h-8 p-2" />
-          <FaInstagram className="border rounded-full border-slate-800 w-8 h-8 p-2" />
+          <FaFacebookF className="border rounded-full border-slate-800 w-8 h-8 p-2 hover:text-[#15bfae] hover:border-[#15bfae]" />
+          <FaXTwitter className="border rounded-full border-slate-800 w-8 h-8 p-2 hover:text-[#15bfae] hover:border-[#15bfae]" />
+          <FaWhatsapp className="border rounded-full border-slate-800 w-8 h-8 p-2 hover:text-[#15bfae] hover:border-[#15bfae]" />
+          <FaInstagram className="border rounded-full border-slate-800 w-8 h-8 p-2 hover:text-[#15bfae] hover:border-[#15bfae]" />
         </div>
       </div>
     </>
